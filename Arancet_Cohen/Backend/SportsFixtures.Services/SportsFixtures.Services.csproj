@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SportsFixtures.Data.Repositories.Contracts\SportsFixtures.Data.Repositories.Contracts.csproj" />
+    <ProjectReference Include="..\SportsFixtures.Services.Contracts\SportsFixtures.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
